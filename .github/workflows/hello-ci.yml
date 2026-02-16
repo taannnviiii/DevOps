@@ -4,3 +4,5 @@ on: [push]
 jobs:
 say-hello:
 runs-on: ubuntu-latest
+- name: Run a greeting
+run: echo &quot;The CI pipeline has successfully started!&quot;
